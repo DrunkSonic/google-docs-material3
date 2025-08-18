@@ -1,0 +1,30 @@
+:root {
+   --primary: #65558f !important;
+   --onprimary: #ffffff !important;
+   --secondary: #625b70 !important;
+   --onsecondary: #ffffff !important;
+   --tertiary: #7e525f !important;
+   --ontertiary: #ffffff !important;
+   --primaryc: #e9ddff !important;
+   --onprimaryc: #4d3d75 !important;
+   --secondaryc: #e8def8 !important;
+   --onsecondaryc: #4a4458 !important;
+   --tertiaryc: #ffd9e2 !important;
+   --ontertiaryc: #633b48 !important;
+   --error: #ffb4ab !important;
+   --onerror: #690005 !important;
+   --errorc: #93000a !important;
+   --onerrorc: #ffdad6 !important;
+   --surfacedim: #ded8e0 !important;
+   --surface: #fef7ff !important;
+   --surfacebright: #fef7ff !important;
+   --sclowest: #ffffff!important;
+   --sclow: #f8f2fa !important;
+   --sc: #f2ecf4 !important;
+   --schigh: #ece6ee !important;
+   --schighest: #e6e0e9 !important;
+   --onsurface: #1d1b20 !important;
+   --onsurfacevar: #49454e !important;
+   --outline: #7a757f !important;
+   --outlinevar: #cac4cf !important;
+}
