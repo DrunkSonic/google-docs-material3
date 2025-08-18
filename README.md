@@ -15,3 +15,7 @@ This theme was originally intended for Google Docs, so the theme may not be comp
 
 ## Prerequisites
 Use any CSS injector for your browser. CSS injectors allow you to inject custom CSS code into any website, including Google Docs.
+
+## Screenshots
+<img width="283" height="574" alt="image" src="https://github.com/user-attachments/assets/49053b8a-7dae-441d-aefe-c2f040c2cdea" />
+The sidebar
