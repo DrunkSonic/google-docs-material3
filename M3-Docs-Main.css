@@ -489,3 +489,12 @@ body.docs-grille-gm3 {
 body.noAdvancedCJKPositioning canvas, body.noAdvancedCJKPositioning svg {
     border-radius: 30px !important;
 }
+
+.docs-grille-gm3 #titlebar-mode-indicator-container .docs-material-button-content {
+    color: var(--onprimaryc) !important;
+}
+
+.docs-grille-gm3 #titlebar-mode-indicator-container>div {
+    border-color: transparent !important;
+    background: var(--primaryc) !important;
+}
