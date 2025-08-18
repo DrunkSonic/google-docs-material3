@@ -18,4 +18,5 @@ Use any CSS injector for your browser. CSS injectors allow you to inject custom 
 
 ## Screenshots
 <img width="283" height="574" alt="image" src="https://github.com/user-attachments/assets/49053b8a-7dae-441d-aefe-c2f040c2cdea" />
-The sidebar
+
+Subtitle
