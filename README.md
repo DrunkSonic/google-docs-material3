@@ -14,6 +14,7 @@ There are numerous changes:
 1. Google Docs
 2. Google Slides
 3. Google Sheets
+
 This theme was originally intended for Google Docs, so the theme may not be complete in other apps.
 
 ## Prerequisites
