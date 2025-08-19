@@ -6,7 +6,7 @@ This CSS theme aims to build on top of Google's overhaul of the Google Docs edit
 
 ## What's changed?
 There are numerous changes:
-1. If you have the Circular STD font installed, that will become the new UI font. Circular STD will become the new font throughout the UI. It's clean and beautiful. However, it only works locally -- I can't host the font online due to licensing restrictions. However, you can [install the font and their weights]([url](https://font.gooova.com/fonts/14294/circular-std-font-family.html)) on your device and voilá! Otherwise, the UI will default to your system's default font.
+1. If you have the Circular STD font installed, that will become the new UI font. Circular STD will become the new font throughout the UI. It's clean and beautiful. However, it only works locally -- I can't host the font online due to licensing restrictions. However, you can [install the font and their weights](https://font.gooova.com/fonts/14294/circular-std-font-family.html) on your device and voilá! Otherwise, the UI will default to your system's default font.
 2. There are more rounded corners for a friendlier look, including pages in Google Docs.
 3. Colors are more emphasized, yet harmonized. You can also customize your color in accordance with Google's Material 3 UI guidelines.
 
@@ -25,7 +25,7 @@ Screenshots to preview if the theme fits your style!
 ## Color Screenshots
 ### Overview
 There are 8 pre-made themes available:
-![0818-ezgif com-crop (1)](https://github.com/user-attachments/assets/0c5d66ea-c804-4248-8dca-cb95350c1a1f)
+![An animated 4-second .GIF switching between all 8 themes.](https://github.com/user-attachments/assets/0c5d66ea-c804-4248-8dca-cb95350c1a1f)
 
 ### Themes
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/6838947f-3e44-497c-8282-fb4dac132739" />
@@ -68,7 +68,7 @@ Purple
 Pink
 
 
-**More themes are coming soon!** Alternatively, you can use the [Material Theme Builder]([url](https://material-foundation.github.io/material-theme-builder/)) to create your own colors and replace the color values in the `root {` element with the respective HEX codes that the generator gives you. Ensure you use the **light theme** values, **not the dark theme!**
+**More themes are coming soon!** Alternatively, you can use the [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/) to create your own colors and replace the color values in the `root {` element with the respective HEX codes that the generator gives you. Ensure you use the **light theme** values, **not the dark theme!**
 
 <img width="919" height="641" alt="image" src="https://github.com/user-attachments/assets/d3badbeb-2d0f-4fb1-a3fe-5128452684b4" />
 
@@ -118,7 +118,7 @@ Without changing any page settings or layouts, pages now look more like it's par
 "Installation" is easy! In fact, you don't need to install anything at all -- it's simply a CSS script you have to copy and paste into a CSS injector.
 
 ## 1. Find a CSS Injector
-For Chrome, you can find CSS Injectors on the Chrome Web Store. I personally use [this one]([url](https://chromewebstore.google.com/detail/css-inject/ieplmpooeagjhcgcpoapbonpfmekpkic?hl=en)). With the Chrome Store cracking down on these sorts of things, some well-built injectors have sadly been removed. However, any CSS Injector will do. There also may be extensions for different browsers, such as Firefox or Safari that allow you to do this as well.
+For Chrome, you can find CSS Injectors on the Chrome Web Store. I personally use [this one](https://chromewebstore.google.com/detail/css-inject/ieplmpooeagjhcgcpoapbonpfmekpkic?hl=en). With the Chrome Store cracking down on these sorts of things, some well-built injectors have sadly been removed. However, any CSS Injector will do. There also may be extensions for different browsers, such as Firefox or Safari that allow you to do this as well.
 
 ## 2. Set the domain
 Most injectors will automatically set the domain (the website your style will apply to) if you visit the website (in this case, Google Docs) and then open the injector. For others, you may have to manually set it yourself. For more information, refer to your injector's description or instructions for specifics.
