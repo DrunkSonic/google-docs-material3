@@ -1,6 +1,9 @@
 # Google Docs M3 Editor
 This CSS theme aims to build on top of Google's overhaul of the Google Docs editor by adding another layer of customization.
 
+[!NOTE]
+This is a work-in-progress. Things are unfinished. Dark themes won't work well with this, and probably never will.
+
 ## What's changed?
 There are numerous changes:
 1. If you have the Circular STD font installed, that will become the new UI font.
@@ -20,6 +23,11 @@ Use any CSS injector for your browser. CSS injectors allow you to inject custom 
 Screenshots to preview if the theme fits your style!
 
 ## Color Screenshots
+### Overview
+There are 8 pre-made themes available:
+![0818-ezgif com-crop (1)](https://github.com/user-attachments/assets/0c5d66ea-c804-4248-8dca-cb95350c1a1f)
+
+### Themes
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/6838947f-3e44-497c-8282-fb4dac132739" />
 
 Red
@@ -69,34 +77,38 @@ The green theme is used as an example.
 
 <img width="283" height="581" alt="image" src="https://github.com/user-attachments/assets/d3fdd4f3-8ed7-4326-8479-2bfebfb8cdab" />
 
-Outlines and tabs
+### Outlines and tabs
+The outlines and tabs sidebar is now a lot more round, while still easy and familiar to use. Your chosen accent color will take over the sidebar. You'll also notice the vertical bar is now rounded, and it helps keep things fit with the theme and much nicer to look at. It's also a pixel wider.
+
+The font size for the header is now also larger.
 
 
 <img width="337" height="398" alt="image" src="https://github.com/user-attachments/assets/50a13bf5-84cf-45fc-bb18-85975ea4c952" />
 
-Color picker
-
+### Color picker
+The color picker is now more rounded and in unison design-wise with other popups throughout Google Docs. Things are more friendly and fit the theme.
 
 <img width="432" height="556" alt="image" src="https://github.com/user-attachments/assets/997a99c0-1166-490c-a06f-74095e81e57d" />
 
-Context menus
-
+### Context menus
+Context menus are also infused with your chosen color, as well as more rounded.
 
 <img width="570" height="248" alt="image" src="https://github.com/user-attachments/assets/123cb4ad-3604-4d8d-9461-3b2b14e14ab8" />
 
-Pop-ups and message boxes
-
+### Pop-ups and message boxes
+Are also tinted with your accent color, while looking more like Material 3.
 
 <img width="360" height="227" alt="image" src="https://github.com/user-attachments/assets/07782275-b8cb-415e-b1ea-d765135ef851" />
 
-Comment editor
-
+### Comment editor
+A simple, beautiful revamp of the comment editor that blends in seamlessly with the rest of the page.
 
 <img width="237" height="81" alt="image" src="https://github.com/user-attachments/assets/d7d4b746-b085-4a86-ab6d-542791330c06" />
 
-Next tab indicator
-
+### Next tab indicator
+Still a helpful and unobtrusive way to navigate to the next tab once you're done reading your current one.
 
 <img width="863" height="458" alt="image" src="https://github.com/user-attachments/assets/ef74bcb5-357d-4d5a-aae1-ca91064a8635" />
 
-Rounded page corners
+### Rounded page corners
+Without changing any page settings or layouts, pages now look more like it's part of Material 3 and are more user-friendly and inviting.
