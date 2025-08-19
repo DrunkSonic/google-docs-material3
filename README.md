@@ -70,6 +70,8 @@ Rose
 
 **More themes are coming soon!** Alternatively, you can use the [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/) to create your own colors and replace the color values in the `root {` element with the respective HEX codes that the generator gives you. Ensure you use the **light theme** values, **not the dark theme!**
 
+What's your favorite? Comment the name of your favorite under the "Issues" tab. Ensure it's as a reply under my issue so that people who want to bring _real_ issues to my attention won't get cluttered. _My personal fave is Aqua._
+
 <img width="919" height="641" alt="image" src="https://github.com/user-attachments/assets/d3badbeb-2d0f-4fb1-a3fe-5128452684b4" />
 
 ## Individual elements
