@@ -6,7 +6,7 @@ This CSS theme aims to build on top of Google's overhaul of the Google Docs edit
 
 ## What's changed?
 There are numerous changes:
-1. If you have the Circular STD font installed, that will become the new UI font.
+1. If you have the Circular STD font installed, that will become the new UI font. Circular STD will become the new font throughout the UI. It's clean and beautiful. However, it only works locally -- I can't host the font online due to licensing restrictions. However, you can [install the font and their weights]([url](https://font.gooova.com/fonts/14294/circular-std-font-family.html)) on your device and voilá! Otherwise, the UI will default to your system's default font.
 2. There are more rounded corners for a friendlier look, including pages in Google Docs.
 3. Colors are more emphasized, yet harmonized. You can also customize your color in accordance with Google's Material 3 UI guidelines.
 
@@ -17,7 +17,7 @@ There are numerous changes:
 This theme was originally intended for Google Docs, so the theme may not be complete in other apps.
 
 ## Prerequisites
-Use any CSS injector for your browser. CSS injectors allow you to inject custom CSS code into any website, including Google Docs.
+Use any CSS injector for your browser. CSS injectors allow you to inject custom CSS code into any website, including Google Docs. More instructions are written down under the Installation section.
 
 # Showcases
 Screenshots to preview if the theme fits your style!
@@ -112,3 +112,22 @@ Still a helpful and unobtrusive way to navigate to the next tab once you're done
 
 ### Rounded page corners
 Without changing any page settings or layouts, pages now look more like it's part of Material 3 and are more user-friendly and inviting.
+
+
+# Installation
+"Installation" is easy! In fact, you don't need to install anything at all -- it's simply a CSS script you have to copy and paste into a CSS injector.
+
+## 1. Find a CSS Injector
+For Chrome, you can find CSS Injectors on the Chrome Web Store. I personally use [this one]([url](https://chromewebstore.google.com/detail/css-inject/ieplmpooeagjhcgcpoapbonpfmekpkic?hl=en)). With the Chrome Store cracking down on these sorts of things, some well-built injectors have sadly been removed. However, any CSS Injector will do. There also may be extensions for different browsers, such as Firefox or Safari that allow you to do this as well.
+
+## 2. Set the domain
+Most injectors will automatically set the domain (the website your style will apply to) if you visit the website (in this case, Google Docs) and then open the injector. For others, you may have to manually set it yourself. For more information, refer to your injector's description or instructions for specifics.
+
+## 3. Paste the main code
+Go to `filenameidk.css` in this repository and copy the raw CSS code to your clipboard. Then, paste it in the script editor of your injector.
+
+## 4. Change the color scheme
+Unless you're happy with the default, you can change the color to a preset theme (or a custom one, with a guide on this coming soon). Simply choose any color inside of the "Themes" folder in this repository, copy its code (in which the only class in the file would be `:root {`), then replace the color values of the main script in your injector's script editor with the ones you just pasted.
+
+## 5. Keep your theme somewhere safe
+Most injectors automatically save your things, but clearing your browser's storage or cache will delete the theme. Copy everything inside your script's editor once you're satisfied with theming, then paste it into somewhere safe, like a Google Doc or a .css file of your own. This also allows you to share your theme with others!
