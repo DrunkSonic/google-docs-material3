@@ -16,7 +16,15 @@ This theme was originally intended for Google Docs, so the theme may not be comp
 ## Prerequisites
 Use any CSS injector for your browser. CSS injectors allow you to inject custom CSS code into any website, including Google Docs.
 
+# Showcases
+Screenshots to preview if the theme fits your style!
+
 ## Color Screenshots
+<img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/6838947f-3e44-497c-8282-fb4dac132739" />
+
+Red
+
+
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/145713b7-369c-4731-9e2f-d29717f1a2d1" />
 
 Orange
@@ -27,14 +35,14 @@ Orange
 Yellow
 
 
-<img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/6838947f-3e44-497c-8282-fb4dac132739" />
-
-Red
-
-
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/dcdc2d20-12b9-48fe-8933-bebac6ca6d0f" />
 
 Green
+
+
+<img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/dd0a2b4a-9b72-4a10-9b39-c27c693100de" />
+
+Turquoise/Aqua
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/c78e467e-1a91-428b-8fe5-fc5c6b4b51c6" />
