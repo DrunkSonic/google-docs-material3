@@ -1,8 +1,8 @@
 # Google Docs M3 Editor
 This CSS theme aims to build on top of Google's overhaul of the Google Docs editor by adding another layer of customization.
 
-[!NOTE]
-This is a work-in-progress. Things are unfinished. Dark themes won't work well with this, and probably never will.
+> [!NOTE]
+> This is a work-in-progress. Things are unfinished. Dark themes won't work well with this, and probably never will.
 
 ## What's changed?
 There are numerous changes:
