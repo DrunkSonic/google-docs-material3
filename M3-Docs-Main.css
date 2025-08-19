@@ -1,6 +1,5 @@
-/* Replace everything in ":root" with the color you want in the themes folder. Just copy the code from the color theme you want. Simple! */
+/* Replace these values inside :root with your preferred theme */
 
-/* Set to light green by default. Copy and paste all this code into a code injector. These are extensions you can find on the extensions store on your browser. */
 :root {
    --primary: #4c662b !important;
    --onprimary: #ffffff !important;
@@ -31,470 +30,495 @@
    --outline: #75796c !important;
    --outlinevar: #c5c8ba !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ::selection {
     background: var(--primary) !important;
     color: var(--onprimary) !important;
 }
-
 .kix-appview-editor {
     background-color: var(--surface) !important;
 }
-
-/* Sidebar */
 .navigation-widget-floating-navigation-button.navigation-widget {
     background: var(--sc) !important;
     border-radius: 0px 30px 30px 0px !important;
 }
-
 .outlines-widget-chaptered .kix-outlines-widget-header-contents {
     background-color: transparent !important;
 }
-
 div#kix-outlines-widget-header-text-chaptered {
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-size: 20px !important;
 }
-
 .chapter-item-label-and-buttons-container-selected, .chapter-item-label-and-buttons-container-selected:focus-within {
     background: var(--primaryc);
 }
-
 .chapter-item-label-and-buttons-container-selected .chapter-item .goog-control, .chapter-item-label-and-buttons-container-selected .chapter-label-content {
     color: var(--onprimaryc) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 500 !important;
 }
-
 .chapter-item .goog-control, .chapter-label-content {
     color: var(--onsurfacevar) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
 .miniChapterSwitcherCore .docs-material-gm-select .docs-material-gm-select-outer-box {
     background: var(--schigh) !important;
 }
-
 .miniChapterSwitcherSelectedChapterInfoText {
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
 .miniChapterSwitcherChapterCountInfoText {
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-size: 14px !important;
     font-weight: 400 !important;
 }
-
 .miniChapterSwitcherContainerView.breadcrumbSwitcherUiVariant .miniChapterSwitcherMultipleChapters .miniChapterSwitcherNavigationEntryPointIcon {
     background: transparent !important;
 }
-
 .miniChapterSwitcherContainerView.breadcrumbSwitcherUiVariant .miniChapterSwitcherNavigationEntryPointMask {
     background: transparent !important;
 }
-
 .kix-page-paginated {
     outline: none !important;
     border-radius: 99px !important;
 }
-
 .chapter-item-label-and-buttons-container:not(.chapter-item-label-and-buttons-container-selected):has(.chapter-item-buttons:focus-within,.chapterItemArrowContainer:focus-within,.chapterItemIconAddButton:focus-within,.chapterItemIconEditButton:focus-within,.chapterItemIconSuggestionButton:focus-within), .chapter-item-nested .chapter-item-label-and-buttons-container:not(.chapter-item-label-and-buttons-container-selected), .navigation-widget-content:not(.chapter-item-dragged-within) .chapter-item-label-and-buttons-container:not(.chapter-item-label-and-buttons-container-selected):hover {
     background: var(--schighest) !important;
 }
-
 .docs-floating-navigation-button-hover .docs-floating-navigation-button-outer-box, .navigation-widget-hat-close.goog-flat-button-hover .navigation-widget-hat-close-button-outer-box {
     background: var(--schighest) !important;
 }
-
-/* Rulers */
 .docs-horizontal-ruler .docs-ruler-face {
     background: var(--surface) !important;
 }
-
 .docs-horizontal-ruler {
     border-bottom: none !important;
     background-color: var(--surface) !important;
 }
-
 .docs-ruler-background {
     background-color: var(--surface) !important;
 }
-
 .docs-vertical-ruler .docs-ruler-face {
     background: var(--surface) !important;
 }
-
 .docs-vertical-ruler {
     background-color: var(--surface) !important;
 }
-
-/* Toolbar */
 .docs-material #docs-branding-container {
     background-color: var(--sclow) !important;
 }
-
 #docs-header:not(.docs-hub-appbar) .docs-titlebar-buttons {
     background: var(--sclow) !important;
 }
-
 #docs-chrome:not(.docs-hub-chrome) {
     background: var(--sclow) !important;
     border-bottom: none !important;
 }
-
 body.docs-grille-gm3 {
     background-color: var(--sclow) !important;
 }
-
 .docs-title-widget {
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 500 !important;
     color: var(--onsurface) !important;
 }
-
 .docs-title-input:focus {
     border: none !important;
     border-radius: 99px !important;
     background: var(--schighest) !important;
 }
-
 .docs-external-badge {
     background-color: var(--primaryc) !important;
     border-radius: 99px !important;
 }
-
 .docs-grille-gm3 .docs-menubar .goog-control {
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
     color: var(--onsurface) !important;
 }
-
 .docs-grille-gm3 .docs-title-input {
     border-radius: 99px !important;
     color: transparent !important;
     font-weight: 500 !important;
 }
-
 .docs-grille-gm3 .docs-menubar .goog-control-hover, .docs-grille-gm3 .docs-menubar .goog-control-open {
     background-color: var(--schighest) !important;
 }
-
 .docs-grille-gm3 .docs-titlebar-badge .docs-save-indicator-icon:hover, .docs-grille-gm3 .docs-titlebar-badge:hover {
     background-color: var(--schigh) !important;
 }
-
 .docs-grille-gm3 #docs-meet-in-editors-entrypointbutton.goog-flat-menu-button-focused, .docs-grille-gm3 #docs-meet-in-editors-entrypointbutton.goog-flat-menu-button-hover, .docs-grille-gm3 #docs-meet-in-editors-entrypointbutton.goog-flat-menu-button-open {
     background: var(--schigh) !important;
 }
-
 #docs-revisions-appbarbutton.jfk-button-disabled:hover, #docs-revisions-appbarbutton.jfk-button-hover {
     background: var(--schigh) !important;
 }
-
-/* Menus */
 .docs-gm .goog-menu {
     border-radius: 18px !important;
     transition: opacity .25s cubic-bezier(.2,0,0,1) .5s,bottom .25s cubic-bezier(.2,0,0,1) .5s !important;
 }
-
 .goog-menu {
     background: var(--schigh) !important;
 }
-
 .docs-gm .goog-menuitem {
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
-
 .docs-gm .goog-menuitem-highlight {
     background: var(--schighest) !important;
 }
-
 .goog-menuitem-highlight .goog-menuitem-content, .goog-menuitem-hover .goog-menuitem-content {
     color: var(--onsurface) !important;
 }
-
 .docs-gm .goog-menuitem-accel, .docs-gm .goog-menuitem-disabled .goog-menuitem-accel {
     color: var(--onsurfacevar) !important;
     font-weight: 400;
 }
-
 .apps-hoverable-menu-separator-container .apps-hoverable-menu-separator-bottom {
     border-top: none !important;
     padding: 0px !important;
 }
-
 .docs-grille-gm3.docs-gm .docs-material #docs-toolbar-wrapper {
     background-color: var(--schigh) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
 .goog-menu.shell-menu.shell-primary-menu {
     min-width: 320px;
     transition: width 2s, height 4s;
 }
-
 .docs-grille-gm3 #docs-align-palette .goog-toolbar-button, .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-button, .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-combo-button, .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-menu-button, .docs-grille-gm3 .trix-palette .goog-toolbar-menu-button {
     background-color: transparent !important;
 }
-
 .docs-grille-gm3 #docs-font-family .goog-toolbar-menu-button-caption, .docs-grille-gm3 #headingStyleSelect .goog-toolbar-menu-button-caption, .docs-grille-gm3 .docs-main-toolbars .docs-toolbar-text-button {
     color: var(--onsurfacevar) !important;
     font-weight: 400 !important;
 }
-
 .docs-gm .goog-toolbar-separator.goog-inline-block {
     border-left: none !important;
 }
-
 .docs-grille-gm3 #docs-titlebar-share-client-button .jfk-button, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button {
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-size: 16px !important;
     background: var(--tertiaryc) !important;
     color: var(--tertiary) !important;
 }
-
 .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button-disabled, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button.goog-flat-menu-button-active, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button.goog-flat-menu-button-hover, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button.goog-flat-menu-button-hover:focus, .docs-grille-gm3 #scb-quick-actions-menu-button.goog-flat-menu-button:focus {
     border-left: 2px solid var(--schigh) !important;
 }
-
 .docs-grille-gm3 #docs-omnibox-toolbar.assisted-actions .docs-omnibox-input {
     background-color: transparent !important;
     border-radius: 20px !important;
 }
-
 .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-combo-button .goog-toolbar-combo-button-input:focus, .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-combo-button-open .goog-toolbar-combo-button-input {
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 500 !important;
 }
-
 .docs-grille-gm3 #fontSizeSelect.docs-font-size-inc-dec-combobox.goog-toolbar-combo-button-open, .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-combo-button-open {
     border: 2px solid var(--primary) !important;
     border-radius: 99px !important;
 }
-
 .docs-grille-gm3 #fontSizeSelect.docs-font-size-inc-dec-combobox.goog-toolbar-combo-button-open, .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-combo-button-open {
     border: 2px solid var(--primary) !important;
 }
-
 .docs-grille-gm3 .docs-main-toolbars .goog-toolbar-combo-button-input {
     color: var(--onsurfacevar) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
     font-size: 14px!important;
 }
-
 .docs-grille-gm3 #fontSizeSelect.docs-font-size-inc-dec-combobox, .docs-grille-gm3 #fontSizeSelect.docs-font-size-inc-dec-combobox .goog-toolbar-combo-button-input {
     border-radius: 99px !important;
     background-color: transparent !important;
 }
-
-/* Size field background */
 .docs-grille-gm3 #fontSizeSelect.docs-font-size-inc-dec-combobox.goog-toolbar-combo-button {
     border: none !important;
     background-color: var(--schighest) !important;
 }
-
 .goog-menu .goog-menuitem-disabled.scb-sqa-iconless-menuitem .goog-menuitem-content .scb-sqa-visibility-details, .goog-menu .goog-menuitem-disabled.scb-sqa-iconless-menuitem .goog-menuitem-content .scb-sqa-visibility-summary {
     color: var(--onsurfacevar) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-size: 13px !important;
 }
-
 .scb-sqa-menuitem.scb-sqa-menuseparator {
     border-top: none !important;
 }
-
 .docs-grille-gm3 .docs-toolbar-more-toolbar, .docs-grille-gm3 .trix-palette {
     background-color: var(--schighest) !important;
     border-radius: 99px !important;
 }
-
 .docs-gm .docs-toolbar-more-bubble {
     border-radius: 99px !important;
     box-shadow: none !important;
     background: transparent !important;
 }
-
-/* Things that have to do with color formatting */
-
 .docs-material-colorpalette-cell.docs-material-colorpalette-cell-hover .docs-material-colorpalette-colorswatch, .docs-material-colorpalette-cell.docs-material-colorpalette-cell-hover .docs-material-colorpalette-colorswatch-translucent-wrapper.docs-material-colorpalette-colorswatch-overlay {
     box-shadow: none !important;
 }
-
 .docs-gm .docs-colormenuitems .docs-colormenuitems-custom-header, .docs-gm .docs-colormenuitems .docs-colormenuitems-scheme-header {
     color: var(--onsurface) !important;
     font-size: 14px !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     letter-spacing: normal !important;
     text-transform: none !important;
 }
-
 .docs-material-gm-dialog {
     background: var(--sc) !important;
     border: none !important;
     border-radius: 32px !important;
 }
-
 .docs-material-color-picker-saturation-value-background {
     border: none !important;
 }
-
 .docs-material-color-picker-overlay {
     border-radius: 20px !important;
 }
-
 .docs-material-color-slider-background {
     border-radius: 20px !important;
 }
-
 .docs-material-color-picker-dragger {
     border: 3px solid var(--sc) !important;
     box-shadow: none !important;
 }
-
 .docs-material-button-hairline-primary.docs-material-button {
     border: 1px solid transparent!important;
     border-radius: 99px !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
     background: transparent important;
     border: none !important;
     color: var(--onsurfacevar) !important;
 }
-
 .docs-material-button-hairline-default.docs-material-button-hover, .docs-material-button-hairline-primary.docs-material-button-hover {
     background: var(--schighest);
     color: var(--onsurface) !important;
-    border-radius: 99px !important
+    border-radius: 99px !important;
     border: none !important;
 }
-
 .docs-material-button-fill-primary.docs-material-button {
     border-radius: 99px !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     background: var(--primary) !important;
     color: var(--onprimary) !important;
 }
-
 .docs-material-hsv-color-picker-rgba-enabled .docs-material-hsv-color-picker-text {
     color: var(--onsurfacevar) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
 .docs-material-hsv-color-picker-input {
     border: none !important;
     border-radius: 99px !important;
     text-align: center !important;
     box-sizing: border-box;
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
     background: var(--schigh) !important;
 }
-
 .docs-grille-gm3 #docs-toolbar-mode-switcher .goog-toolbar-menu-button-caption {
     color: var(--onsurfacevar) !important;
-    font: 400 14px/28px "Circular STD" !important;
+    font: 400 14px/28px "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
-
 .nextChapterBottomFabView.docs-gm3-filled-button {
     background: var(--sc) !important;
     color: var(--onsurfacevar) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
+.outlines-widget-chaptered .kix-outlines-widget-header-contents {
+    background-color: var(--sc) !important;
+}
 .docs-action-updated-dot {
     background-color: var(--primary) !important;
 }
-
 .docs-new-badge, .docs-premium-badge {
     background-color: var(--primary) !important;
     color: var(--onprimary) !important;
     font-weight: 400 !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
-
 .docs-grille-gm3 #docs-omnibox-toolbar.assisted-actions .docs-omnibox-input:focus-within {
     background: var(--sc) !important;
 }
-
 .docs-grille-gm3 #docs-omnibox-toolbar .docs-omnibox-input.jfk-textinput[aria-expanded=true].assisted-actions-toolbar-omnibox {
     color: var(--onsurface) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
 .docs-omnibox-autocomplete .ac-renderer {
     background-color: var(--schigh) !important;
     transition: opacity .25s cubic-bezier(.2,0,0,1) .5s,bottom .25s cubic-bezier(.2,0,0,1) .5s !important;
     border-radius: 16px !important;
 }
-
 #docs-omnibox-toolbar.assisted-actions .docs-omnibox-autocomplete .ac-row .goog-menuitem {
-    font-family: "Circular STD" !important;
-    color: var(-onsurface) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    color: var(--onsurface) !important;
 }
-
 .chapter-item-label-and-buttons-container-selected:has(.chapter-item-buttons:focus-within,.chapterItemArrowContainer:focus-within,.chapterItemIconAddButton:focus-within,.chapterItemIconEditButton:focus-within,.chapterItemIconSuggestionButton:focus-within), .chapter-item-nested .chapter-item-label-and-buttons-container-selected, .navigation-widget-content:not(.chapter-item-dragged-within) .chapter-item-label-and-buttons-container-selected:hover:not(:focus-within) {
     background: var(--primaryc) !important;
 }
-
 .Decvpc {
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     color: var(--onsurface) !important;
     font-weight: 600 !important;
 }
-
 .huwqi {
     background-color: var(--schigh) !important;
     color: var(--onsurfacevar) !important;
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
 }
-
 .GGCV9c .Vmfal {
-    font-family: "Circular STD" !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
     font-weight: 400 !important;
     color: var(--onsurface) !important;
 }
-
-/* Rounded page corners! */
 body.noAdvancedCJKPositioning canvas, body.noAdvancedCJKPositioning svg {
     border-radius: 30px !important;
+    box-shadow: 0px 0px 18px var(--sclow) !important;
 }
-
 .docs-grille-gm3 #titlebar-mode-indicator-container .docs-material-button-content {
     color: var(--onprimaryc) !important;
 }
-
 .docs-grille-gm3 #titlebar-mode-indicator-container>div {
     border-color: transparent !important;
     background: var(--primaryc) !important;
+}
+.outline-refresh.navigation-widget-unified-styling .navigation-widget-empty-content {
+    color: var(--onsurfacevar) !important;
+    font-style: unset !important;
+    font-weight: 400 !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.outlines-widget-chaptered .navigation-item+.navigation-item .navigation-item-vertical-line-top, .outlines-widget-chaptered .navigation-item-vertical-line-middle, .outlines-widget-chaptered .navigation-item:not(.navigation-item:last-child) .navigation-item-vertical-line-bottom {
+    border-radius: 40px !important;
+}
+.outlines-widget-chaptered [class*=navigation-item-vertical-line-] {
+    width: 3px;
+}
+.outline-refresh.navigation-widget-unified-styling .location-indicator-highlight.navigation-item, .outline-refresh.navigation-widget-unified-styling .location-indicator-highlight.navigation-item .navigation-item-level-0 {
+    color: var(--primary) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: 500 !important;
+}
+.outlines-widget-chaptered .location-indicator-highlight .navigation-item-vertical-line-middle {
+    background: var(--primary) !important;
+}
+.outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-0, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-1, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-2, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-3, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-4, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-5, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-6, .outlines-widget .outlines-widget-chaptered .chapter-container .navigation-item .navigation-item-level-7 {
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    color: var(--onsurface) !important;
+}
+.outlines-widget-chaptered .navigation-item+.navigation-item .navigation-item-vertical-line-top, .outlines-widget-chaptered .navigation-item-vertical-line-middle, .outlines-widget-chaptered .navigation-item:not(.navigation-item:last-child) .navigation-item-vertical-line-bottom {
+    background: var(--schigh) !important;
+}
+.javascriptMaterialdesignGm3WizElevation-elevation, .javascriptMaterialdesignGm3WizElevation-elevation:after, .javascriptMaterialdesignGm3WizElevation-elevation:before, .javascriptMaterialdesignGm3WizElevation-elevation__overlay {
+    background: var(--sc) !important;
+}
+.javascriptMaterialdesignGm3WizDialog-dialog__title .javascriptMaterialdesignGm3WizDialog-dialog__title-text {
+    color: var(--onsurface) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: 500 !important;
+}
+.javascriptMaterialdesignGm3WizDialog-dialog__content {
+    color: var(--onsurfacevar) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: 400 !important;
+}
+a:link {
+    color: var(--primary) !important;
+}
+.javascriptMaterialdesignGm3WizButtonText-button__label {
+    color: var(--primary) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-weight: 400 !important;
+}
+.javascriptMaterialdesignGm3WizRipple-ripple:before {
+    background-color: var(--primary,transparent);}
+.javascriptMaterialdesignGm3WizButtonFilled-button {
+    --gm3-elevation-shadow-color: transparent !important;
+    background: transparent !important;
+}
+.javascriptMaterialdesignGm3WizButtonFilled-button__touch {
+    background: var(--primaryc) !important;
+    border-radius: 99px !important;
+}
+.javascriptMaterialdesignGm3WizButtonFilled-button__use-updated-font-styles .javascriptMaterialdesignGm3WizButtonFilled-button__label {
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    color: var(--onprimaryc) !important;
+}
+.miniChapterSwitcherContainerView.breadcrumbSwitcherUiVariant .miniChapterSwitcherNavigationEntryPointIcon {
+    background: transparent !important;
+}
+.docs-grille-gm3 .jfk-tooltip {
+    background-color: var(--sc) !important;
+    border: 1px solid transparent;
+    border-radius: 30px !important;
+    color: var(--onsurfacevar) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.docs-grille-gm3.docs-gm .docos-anchoreddocoview.docos-docoview-active, .docs-grille-gm3.docs-gm .docos-anchoreddocoview.docos-docoview-active:hover, .docs-grille-gm3.docs-gm .docos-comments-pe .docos-docoview-active .docos-anchoreddocoview-internal, .docs-grille-gm3.docs-gm .docos-comments-pe .docos-docoview-active.docos-anchoreddocoview:hover .docos-anchoreddocoview-internal, .docs-grille-gm3.docs-gm .docos-docoview-active .docos-anchoreddocoview-input-pane, .docs-grille-gm3.docs-gm .docos-docoview-active .docos-anchoredreplyview, .docs-grille-gm3.docs-gm .docos-docoview-active:hover .docos-anchoreddocoview-input-pane, .docs-grille-gm3.docs-gm .docos-docoview-active:hover .docos-anchoredreplyview {
+    background: var(--sc) !important;
+    border-radius: 30px !important;
+}
+.docs-grille-gm3 .docos-anchoreddocoview.docos-docoview-active, .docs-grille-gm3 .docos-anchoreddocoview.docos-docoview-active:hover {
+    box-shadow: none !important;
+}
+.docs-gm .docos-anchoredreplyview-header .docos-anchoredreplyview-author {
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-size: 16px !important;
+    color: var(--onsurface) !important;
+}
+.docs-grille-gm3 .docos-input .docos-input-textarea, .docs-grille-gm3 .docos-input .docos-input-textarea:focus, .docs-grille-gm3 .docos-streamdocoview-input-pane .docos-input-textarea, .docs-grille-gm3 .docos-streamdocoview-input-pane.docos-input .docos-input-textarea:focus {
+    background: var(--sclowest) !important;
+    border: none !important;
+    color: var(--onsurfacevar) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.docs-grille-gm3.docos.docs-gm.docos-comments-pe .docos-input-cancel.jfk-button-standard.jfk-button {
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    color: var(--primary) !important;
+}
+.docs-grille-gm3.docos.docs-gm .jfk-button.jfk-button-action {
+    background: var(--primaryc) !important;
+    color: var(--onprimaryc) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.docs-grille-gm3 .docos-anchoreddocoview .docos-replyview-first.docos-anchoredreplyview {
+    background: var(--sc) !important;
+    border-radius: 30px !important;
+}
+.docos-comments-pe .docos-anchoreddocoview-internal {
+    background: transparent !important;
+}
+.docs-grille-gm3 .docos-anchoredreplyview .docos-action-text, .docs-grille-gm3 .docos-anchoredreplyview-header .docos-anchoredreplyview-timestamp, .docs-grille-gm3 .docos-streamdocoview .docos-action-text, .docs-grille-gm3.docs-gm .docos-xeditor .docos-streamdocoview-timestamp {
+    color: var(--onsurfacevar) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.docs-grille-gm3 .docos-anchoredreplyview .docos-anchoredreplyview-body {
+    color: var(--onsurface) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-size: 16px !important;
+}
+#docos-shadow {
+    background: var(--error) !important;
+    border-radius: 30px !important;
+    color: var(--errorc) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+.chapter-item-label-and-buttons-container-selected .chapterDocoIndicatorViewIcon {
+    fill: var(--primary) !important;
+}
+.chapterDocoIndicatorViewText {
+    color: var(--onprimary) !important;
+    font-family: "Circular STD", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-size: 12px !important;
+}
+.docs-grille-gm3 .docos-anchoreddocoview, .docs-grille-gm3 .docos-anchoreddocoview .docos-anchoredreplyview, .docs-grille-gm3 .docos-anchoreddocoview-input-pane {
+    background: var(--sc) !important;
 }
