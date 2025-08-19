@@ -124,7 +124,7 @@ For Chrome, you can find CSS Injectors on the Chrome Web Store. I personally use
 Most injectors will automatically set the domain (the website your style will apply to) if you visit the website (in this case, Google Docs) and then open the injector. For others, you may have to manually set it yourself. For more information, refer to your injector's description or instructions for specifics.
 
 ## 3. Paste the main code
-Go to `filenameidk.css` in this repository and copy the raw CSS code to your clipboard. Then, paste it in the script editor of your injector.
+Go to `M3-Docs-Main.css` in this repository and copy the raw CSS code to your clipboard. Then, paste it in the script editor of your injector.
 
 ## 4. Change the color scheme
 Unless you're happy with the default, you can change the color to a preset theme (or a custom one, with a guide on this coming soon). Simply choose any color inside of the "Themes" folder in this repository, copy its code (in which the only class in the file would be `:root {`), then replace the color values of the main script in your injector's script editor with the ones you just pasted.
