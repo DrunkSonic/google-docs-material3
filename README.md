@@ -30,42 +30,42 @@ There are 8 pre-made themes available:
 ### Themes
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/6838947f-3e44-497c-8282-fb4dac132739" />
 
-Red
+Flame
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/145713b7-369c-4731-9e2f-d29717f1a2d1" />
 
-Orange
+Citrus
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/637280c8-75e1-4cff-8d6b-9db5cdb74783" />
 
-Yellow
+Butter
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/dcdc2d20-12b9-48fe-8933-bebac6ca6d0f" />
 
-Green
+Leaf
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/dd0a2b4a-9b72-4a10-9b39-c27c693100de" />
 
-Turquoise/Aqua
+Aqua
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/c78e467e-1a91-428b-8fe5-fc5c6b4b51c6" />
 
-Blue
+Blueberry
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/10b8eb9a-1bd7-4aac-9a4a-c68537944407" />
 
-Purple
+Galaxy
 
 
 <img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/7e928168-a996-4673-8a2c-dd04fbe0b10d" />
 
-Pink
+Rose
 
 
 **More themes are coming soon!** Alternatively, you can use the [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/) to create your own colors and replace the color values in the `root {` element with the respective HEX codes that the generator gives you. Ensure you use the **light theme** values, **not the dark theme!**
@@ -73,7 +73,7 @@ Pink
 <img width="919" height="641" alt="image" src="https://github.com/user-attachments/assets/d3badbeb-2d0f-4fb1-a3fe-5128452684b4" />
 
 ## Individual elements
-The green theme is used as an example.
+Leaf is used as an example.
 
 <img width="283" height="581" alt="image" src="https://github.com/user-attachments/assets/d3fdd4f3-8ed7-4326-8479-2bfebfb8cdab" />
 
