@@ -76,7 +76,7 @@ Rose
 What's your favorite? Comment the name of your favorite under the "Issues" tab. Ensure it's as a reply under my issue so that people who want to bring _real_ issues to my attention won't get cluttered. _My personal fave is Aqua._
 
 ## Preset custom themes
-We're also building custom themes with bolder, brighter colors. We've added Flame Fuel, which is a bolder, more red version of Flame.
+We're also building custom themes with bolder, brighter colors. We've added Flame Fuel, which is a bolder, more red version of Flame. Note that themes here deviate from standard Material 3 guidelines and readability might decrease, as well as color inconsistencies and unorthodox color schemes.
 
 
 ## Individual elements
