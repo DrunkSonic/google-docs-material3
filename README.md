@@ -10,7 +10,7 @@ There are numerous changes:
 2. There are more rounded corners for a friendlier look, including pages in Google Docs.
 3. Colors are more emphasized, yet harmonized. You can also customize your color in accordance with Google's Material 3 UI guidelines.
 
-## Where will this be applied?
+## Where will this/can this be applied?
 1. Google Docs
 2. Google Slides
 3. Google Sheets
