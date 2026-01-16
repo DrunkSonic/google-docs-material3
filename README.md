@@ -6,7 +6,7 @@ This CSS theme aims to build on top of Google's overhaul of the Google Docs edit
 
 ## What's changed?
 There are numerous changes:
-1. If you have the Circular STD font installed, that will become the new UI font. Circular STD will become the new font throughout the UI. It's clean and beautiful. However, it only works locally -- I can't host the font online due to licensing restrictions. However, you can [install the font and their weights](https://font.gooova.com/fonts/14294/circular-std-font-family.html) on your device and voilá! Otherwise, the UI will default to your system's default font.
+1. If you have the Circular STD font installed, that will become the new UI font. Circular STD will become the new font throughout the UI. It's clean and beautiful. However, it only works locally -- I can't host the font online due to licensing restrictions. However, you can [install the font and their weights](https://font.gooova.com/fonts/14294/circular-std-font-family.html) on your device and voilá! Otherwise, the UI will default to your system's default font. [TT Norms Pro](https://fontesk.com/tt-norms-pro-typeface/) is also a great font and compilments the new UI very nicely.
 2. There are more rounded corners for a friendlier look, including pages in Google Docs.
 3. Colors are more emphasized, yet harmonized. You can also customize your color in accordance with Google's Material 3 UI guidelines.
 
